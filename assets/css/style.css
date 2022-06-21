@@ -112,3 +112,9 @@ body {
 #ticket-banner a {
     text-decoration: none;
 }
+
+#ticket-banner h2:hover {
+    background-color: rgb(230, 172, 73);
+    color: #000;
+}
+
