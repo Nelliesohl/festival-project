@@ -79,5 +79,15 @@ body {
     }
 }
 
+/* hero image cover text */
 
+#logo {
+    font-size: 4rem;
+    letter-spacing: 8px;
+    padding: 1rem
+}
 
+.hero-text {
+    font-size: 1rem;
+    padding: 11rem;
+}
