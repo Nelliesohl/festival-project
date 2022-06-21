@@ -49,3 +49,13 @@ body {
 #menu a:hover {
     border-bottom: 1px solid rgb(255, 191, 82);
 }
+
+/* hero image */
+
+#hero-image {
+    background: url(../images/hero-image.jpg) no-repeat center center;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+    height: 600px;
+    width: 100%;
+}
