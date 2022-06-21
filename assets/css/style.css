@@ -92,3 +92,23 @@ body {
     padding: 11rem;
 }
 
+/* ticket banner */
+
+#ticket-banner {
+    background-color: black;
+    height: 50px;
+    overflow: hidden;
+}
+
+#ticket-banner h2 {
+    color:rgb(255, 191, 82);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 6px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+#ticket-banner a {
+    text-decoration: none;
+}
