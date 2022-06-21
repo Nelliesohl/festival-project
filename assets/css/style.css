@@ -45,3 +45,7 @@ body {
     color:rgb(255, 191, 82);
     text-decoration: none;
 }
+
+#menu a:hover {
+    border-bottom: 1px solid rgb(255, 191, 82);
+}
