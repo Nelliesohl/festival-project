@@ -1,1 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Staatliches&display=swap');
+
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
