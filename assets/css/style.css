@@ -53,9 +53,30 @@ body {
 /* hero image */
 
 #hero-image {
+    animation: hero-zoom 5s forwards;
     background: url(../images/hero-image.jpg) no-repeat center center;
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: overlay;
     height: 600px;
     width: 100%;
 }
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* -- hero image animation -- */
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+
+    to{
+        transform: scale(1.1);
+    }
+}
+
+
