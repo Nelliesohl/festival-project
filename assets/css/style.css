@@ -23,3 +23,25 @@ body {
     letter-spacing: 1.5px;
     text-align: center;
 }
+
+/* navigation menu */
+
+#menu {
+    background-color: black;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    line-height: 75px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#menu li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#menu a {
+    color:rgb(255, 191, 82);
+    text-decoration: none;
+}
