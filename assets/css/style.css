@@ -142,7 +142,7 @@ h3 {
 }
 
 #welcome p {
-    padding: 10px 4rem;
+    padding: 10px 1rem;
 }
 
 #welcome h2 {
@@ -251,7 +251,6 @@ h3 {
 
 #faq h2 {
     letter-spacing: 3px;
-    padding: 0 5rem;
     text-transform: uppercase;
 }
 
@@ -261,7 +260,7 @@ h3 {
 }
 
 #faq p {
-    padding: 1rem 2rem 3rem 2rem;
+    padding: 1rem 0rem 2rem 0rem;
 }
 
 #faq ul {
@@ -278,7 +277,7 @@ h3 {
     border-top: 1px solid white;
     border-bottom: 1px solid white;
     padding: 1rem;
-    margin: 0 3rem 1rem 3rem;
+    margin: 0 2rem 1rem 2rem;
 }
 
 /* contact form */
