@@ -224,3 +224,10 @@ h3 {
 .artist-wrap h3 {
     color: black;
 }
+
+/* faq section */
+
+#faq {
+    background-color: rgb(9, 11, 17);
+    padding: 4rem;
+}
