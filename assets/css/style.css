@@ -209,3 +209,17 @@ h3 {
     height: 230px;
     width: 100%;
 }
+
+/* artist card positioning and font color */
+
+.artist-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.artist-wrap h3 {
+    color: black;
+}
