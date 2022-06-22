@@ -243,3 +243,24 @@ h3 {
     padding-top: 1rem;
 }
 
+
+#faq p {
+    padding: 1rem 2rem 3rem 2rem;
+}
+
+#faq ul {
+    padding-bottom: 1.5rem;
+}
+
+#faq li {
+    list-style: none;
+    padding: 0.1rem;
+    margin: 1rem;
+}
+
+#faq div {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    margin: 0 6rem 1rem 6rem;
+}
