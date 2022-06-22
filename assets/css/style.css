@@ -211,6 +211,23 @@ h3 {
     width: 100%;
 }
 
+/* artist card hover animation */
+
+.artist-cards:hover {
+    animation: artist-zoom 0.5s forwards;
+}
+
+@keyframes artist-zoom {
+    from{
+        transform: scale(1);
+    }
+
+    to{
+        transform: scale(1.05);
+    }
+}
+
+
 /* artist card positioning and font color */
 
 .artist-wrap {
@@ -261,7 +278,7 @@ h3 {
     border-top: 1px solid white;
     border-bottom: 1px solid white;
     padding: 1rem;
-    margin: 0 6rem 1rem 6rem;
+    margin: 0 3rem 1rem 3rem;
 }
 
 /* contact form */
