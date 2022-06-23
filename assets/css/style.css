@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Staatliches&display=swap');
 
 * {
@@ -75,7 +82,8 @@ h3 {
 }
 
 #hero-image {
-    animation: hero-zoom 5s forwards;
+    -webkit-animation: hero-zoom 5s forwards;
+            animation: hero-zoom 5s forwards;
     background: url(../images/hero-image.jpg) no-repeat center center;
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: overlay;
@@ -85,13 +93,27 @@ h3 {
 
 /* hero image animation */
 
-@keyframes hero-zoom {
+@-webkit-keyframes hero-zoom {
     from{
-        transform: scale(1);
+        -webkit-transform: scale(1);
+                transform: scale(1);
     }
 
     to{
-        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+    }
+}
+
+@keyframes hero-zoom {
+    from{
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+
+    to{
+        -webkit-transform: scale(1.1);
+                transform: scale(1.1);
     }
 }
 
@@ -214,16 +236,31 @@ h3 {
 /* artist card hover animation */
 
 .artist-cards:hover {
-    animation: artist-zoom 0.5s forwards;
+    -webkit-animation: artist-zoom 0.5s forwards;
+            animation: artist-zoom 0.5s forwards;
+}
+
+@-webkit-keyframes artist-zoom {
+    from{
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+
+    to{
+        -webkit-transform: scale(1.05);
+                transform: scale(1.05);
+    }
 }
 
 @keyframes artist-zoom {
     from{
-        transform: scale(1);
+        -webkit-transform: scale(1);
+                transform: scale(1);
     }
 
     to{
-        transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+                transform: scale(1.05);
     }
 }
 
@@ -231,11 +268,21 @@ h3 {
 /* artist card positioning and font color */
 
 .artist-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 
 .artist-wrap h3 {
@@ -287,10 +334,19 @@ h3 {
 }
 
 .form-style {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .form-style h2 {
@@ -313,6 +369,22 @@ h3 {
     height: 10rem;
     padding: 0.5rem;
     width: 24.5rem;
+}
+
+::-webkit-input-placeholder {
+    color:#000
+}
+
+::-moz-placeholder {
+    color:#000
+}
+
+:-ms-input-placeholder {
+    color:#000
+}
+
+::-ms-input-placeholder {
+    color:#000
 }
 
 ::placeholder {
@@ -499,7 +571,7 @@ footer {
     }
 
     #welcome {
-        padding: 2rem 1rem 1rem 1rem;
+        padding: 2rem 1rem;
     }
 
     #welcome p {
