@@ -1,108 +1,249 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Nelliesohl,
+# Sohl Music Festival
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Project introduction... 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+# Features
 
-## Gitpod Reminders
+## Existing Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+__Navigation bar__
 
-A blue button should appear to click: _Make Public_,
+The navigation bar offers the user fast and easy navigation to their section of interest.
 
-Another blue button should appear to click: _Open Browser_.
+- Internal links to the different sections of the page
+- External link to the festival’s ticket partner
+- The external link will open in a new browser tab
+- Hover effect on links for extra clarity and improved user experience 
+- Fully responsive on all screen sizes
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-A blue button should appear to click: _Make Public_,
+__Hero image__
 
-Another blue button should appear to click: _Open Browser_.
+The animated hero image grabs the user's attention. The cover text informs the user about when and where the festival is being held.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- The hero image features an eye-catching zoom animation
+- Text overlay including logo, dates, and location of the festival
+- Fully responsive on all screen sizes
 
-To log into the Heroku toolbelt CLI:
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+__Ticket banner__
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The ticket banner notifies users that tickets have been released and offers fast and easy navigation to the festival's ticket partner for purchase.
 
-------
+- External link to the festivals ticket partner
+- The external link opens in a new browser tab
+- Hover effect for clarity and improved user experience 
+- Fully responsive on all screen sizes
 
-## Release History
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+__About section__
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+Provides the user with information about what the festival offers and its purpose.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- This section is intended to:
+  - Increase the user’s interest 
+  - Build brand confidence
+- Fully responsive on all screen sizes
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+__Artist sections__
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+Introduces users to the festival’s lineup and allows users to see what day their favorite artist will perform.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- Artist cards with names, images, and embedded external links to the artist’s websites
+- External links open in a new browser tab
+- Hover effect to make the user aware of the embedded link
+- Fully responsive on all screen sizes
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+ __FAQ__
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+This section gives users a central place to find the answers they need and provides additional information about the festival.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- This section is intended to:
+  - Improve the user experience
+  - Establish trust
+  - Overcome user obstacles and create conversions
+- Fully responsive on all screen sizes
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+__Contact form__
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+This section contains a form in which the user can contact the festival directly.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- The user will be asked to submit their full name, email address, and message
+- All inputs are required to submit the form
+- When the form is submitted button inverts colors
 
-------
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-## FAQ about the uptime script
+__Footer__
 
-**Why have you added this script?**
+The footer section encourages the user to keep connected and updated through the festival's social media channels. 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- External links to social media channels
+- External links open in a new browser tab
 
-**How will this affect me?**
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## Features Left to Implement
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- Ideas for future implementation:
+  - Drop-down text for FAQ
+  - Redirect user to internal artist page instead of external artist site
+  - Update artist images with properly sized images to improve performance score in Light House test
+  - Update artist images with correct aspects ratio to improve performance score in Light House test 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
+## Testing
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+__Validator Testing__
 
-**Can I opt out?**
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+ * HTML
+    * No errors were returned when passing through the official W3C validator
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+* CSS
+    * No errors were found when passing through the official (Jigsaw) validator
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+* Light house
+    * Best possible accessibility score
 
 ---
 
-Happy coding!
+Using dev tools and Safari’s user-agent I’ve been able to test the website on multiple devices and browsers. 
+
+I found two bugs 
+
+- Bug 1
+  - Browser: Safari
+  - Device: iPhone 12 
+  - Bug: Text on submit button did not display
+  - Fix: Added color: #000; to submit-button class in CSS stylesheet which fixed the problem 
+
+- Bug 2
+  - Browser: Safari 
+  - Device: iPad iOS 14.0
+  - Bug: Social media icons did not show up in the footer
+  - Fix: After a lot of troubleshooting I asked my sister that works in an Apple store to double-check on different iPad devices and she found no bugs, so I considered it resolved.
+____
+The [Sohl Music Festival](https://nelliesohl.github.io/festival-project/) website works like intended across Chrome, Safari, Mozilla, and Firefox on the following devices:
+
+Chrome: iPhone SE, iPhone XR, iPhone 12 Pro, Pixel 5, Samsung Galaxy S8+ Samsung Galaxy S20 Ultra, iPad Air, iPad Mini, Surface Pro 7, Surface Duo, Samsung Galaxy A51/71, Nest Hub, Nest Hub Max, Galaxy S5 
+
+
+Safari: Safari 15.3, iPhone iOS 14.0, iPad iOS 14.0, iPhone iOS 13.1.3, iPod touch iOS 13.1.3, iPad Mini iOS 13.1.3, iPad iOS 13.1.3 
+
+
+Mozilla: Fully responsive in browser
+
+
+Firefox: Fully responsive in browser
+___
+
+What I’ve tested other than responsiveness: 
+- Internal links in nav bar is connected to the right sections and works 
+- External links in nav bar opens in a new tab
+- External ticket banner link opens in a new tab 
+- External artist links opens in a new tab 
+- All inputs are required to submit form
+- Submitting form works
+- External social media links opens in a new tab
+- Hero image and artist card zoom animation works
+- Hover effects applied to links in nav bar, ticket banner, artist cards, and submit button works
+
+(No bugs found)
+
+__Unfixed Bugs__
+
+N/A
+
+## Deployment
+
+The site was deployed to GitHub pages. 
+
+- The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - https://nelliesohl.github.io/festival-project/ 
+
+## Technologies used
+
+__HTML5__ -
+As a structure language.
+
+__CSS__ -
+As a style language.
+
+__Font Awesome__ -
+As an icon library for a social links.
+
+__Google fonts__ -
+As a font resource.
+
+__GitHub__ -
+As a software hosting platform to keep project in a remote location.
+
+__Git__ -
+As a version-control system tracking.
+
+__Gitpod__ -
+As a development hosting platform.
+
+## Credits
+
+__Text content__
+* The first sentence in the about section was taken from https://www.thecarousal.com/about
+* FAQ content was taken from these three websites https://festival.liquicity.com/faq/, https://paradisecity.be/faq/, https://www.fleshfestival.com/faq 
+
+
+__Fonts__
+* Fonts used were imported from: [Google Fonts](https://fonts.google.com/)
+* The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+__Media__
+* Hero image: https://www.pexels.com/photo/people-having-a-concert-1190297/
+* Artist images: 
+  - [David Guetta](https://open.spotify.com/artist/1Cs0zKBU1kc0i8ypK3B9ai)
+  - [Marshmello](https://imageio.forbes.com/specials-images/imageserve/5be1e2a3a7ea437059163919/0x0.jpg?format=jpg&crop=1999,1999,x0,y0,safe&height=1999&width=1999)
+  - [DJ Khaled](https://cdn.smehost.net/2020sonymusiccouk-ukprod/wp-content/uploads/2019/10/16a2066d261a38a5ba3bff2e101acb93.jpg)   
+  - [Martin Garrix](https://www.billboard.com/wp-content/uploads/media/martin-garrix-press-2018-cr-Louis-van-Baar-billboard-1548.jpg?w=875&h=583&crop=1)
+  - [Deadmau5](https://www.meldaproduction.com/webtemp/imagecache/art_image/6f/deadmau5.640x640-exact.v1.jpg)
+  - [Daft Punk](https://lastfm.freetls.fastly.net/i/u/ar0/80623b58659c416b8751f06a4edceb83.jpg) 
+  - [Carl Cox](https://d3vhc53cl8e8km.cloudfront.net/hello-staging/wp-content/uploads/2014/05/06230831/IrTtlwPsIH5tlLqWWonPMsbBlWNb2ggeh7XdAMiR-972x597.jpeg)
+  - [Oliver Heldens](https://i.pinimg.com/originals/6f/07/56/6f0756b53886965d2dfb5e2474e3855a.jpg)
+  - [Adam Beyer](https://drumcode.se/artist/adam-beyer)
+  - [Diplo](https://edm.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cq_auto:good%2Cw_1200/MTc2MjYzNjMxOTI5ODc3Njk0/diplo-press-photo-by-shane-lopeges-2018-billboard-1548-1.png)
+  - [Nervo](https://protocol-recordings.com/wp-content/uploads/nervo.jpg)
+  - [Justin Bieber](https://i.pinimg.com/originals/48/35/41/483541f14d25c81b01b2e687459154c3.jpg)
+  - [Don Diablo](https://media.resources.festicket.com/www/artists/DonDiablo.jpeg)
+  - [Steve Aoki](AOKIPRESSAUG20-12_square2.jpg)
+
+(Copied image addresses from google searches instead of finding the rightful owner of the images. In future projects, I would like to do this part differently. For this project, I will credit all of the artists as the rightful owners).
+
+__Code__
+* To complete this project I used Code Institute student template: https://github.com/Code-Institute-Org/gitpod-full-template
+* For artist card positioning I’ve used code from https://flexboxfroggy.com/
+* To clean up my html formatting I’ve used https://webformatter.com/html
+* For vendor prefixes, I’ve used https://autoprefixer.github.io/
+* The [Code Institute’s](https://learn.codeinstitute.net/) course material and projects are where I’ve taken my code inspiration from 
+
+
+I would like to thank and give credit to Lejla Delic that has contributed to this project with the majority of the text content in the about section.
+
+
+I would like to share my enormous gratitude to my mentor Akshat Garg who has been amazing support along this journey and made a lot of things click for me. 
+
+Akshat Garg has also introduced me to the [Flexboxfroggy](https://flexboxfroggy.com/) code, the [HTML formatter](https://webformatter.com/html), the [Mockup site](http://techsini.com/multi-mockup/index.php), and the [Material Design - Color tool](https://material.io/resources/color/#!). 
