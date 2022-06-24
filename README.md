@@ -3,6 +3,8 @@
 
 Project introduction... 
 
+![Web Screenshit](/assets/images/mock-up.png)
+
 # Features
 
 ## Existing Features
@@ -18,7 +20,7 @@ The navigation bar offers the user fast and easy navigation to their section of 
 - Hover effect on links for extra clarity and improved user experience 
 - Fully responsive on all screen sizes
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Web Screenshot](/assets/images/menu.png)
 
 __Hero image__
 
@@ -28,7 +30,7 @@ The animated hero image grabs the user's attention. The cover text informs the u
 - Text overlay including logo, dates, and location of the festival
 - Fully responsive on all screen sizes
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Web Screenshot](/assets/images/hero-image.jpg)
 
 __Ticket banner__
 
@@ -39,7 +41,7 @@ The ticket banner notifies users that tickets have been released and offers fast
 - Hover effect for clarity and improved user experience 
 - Fully responsive on all screen sizes
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Web Screenshot](/assets/images/ticket-banner.png)
 
 __About section__
 
@@ -50,7 +52,7 @@ Provides the user with information about what the festival offers and its purpos
   - Build brand confidence
 - Fully responsive on all screen sizes
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Web Screenshot](/assets/images/about-section.png)
 
 __Artist sections__
 
@@ -61,7 +63,11 @@ Introduces users to the festival’s lineup and allows users to see what day the
 - Hover effect to make the user aware of the embedded link
 - Fully responsive on all screen sizes
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Web Screenshot](/assets/images/first-artist-section.png)
+
+![Web Screenshot](/assets/images/second-artist-section.png)
+
+![Web Screenshot](/assets/images/third-artist-section.png)
 
  __FAQ__
 
@@ -73,7 +79,7 @@ This section gives users a central place to find the answers they need and provi
   - Overcome user obstacles and create conversions
 - Fully responsive on all screen sizes
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Web Screenshot](/assets/images/faq-section.png)
 
 __Contact form__
 
@@ -83,7 +89,7 @@ This section contains a form in which the user can contact the festival directly
 - All inputs are required to submit the form
 - When the form is submitted button inverts colors
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Web Screenshot](/assets/images/contact-section.png)
 
 __Footer__
 
@@ -92,7 +98,7 @@ The footer section encourages the user to keep connected and updated through the
 - External links to social media channels
 - External links open in a new browser tab
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Web Screenshot](/assets/images/footer-section.png)
 
 ## Features Left to Implement
 
