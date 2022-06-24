@@ -1,9 +1,12 @@
 
 # Sohl Music Festival
 
-Project introduction... 
+This website was created for Sohl Music Festival. It is built to to be visually appealing, easy to navigate and responsive to multiple devices.
+The website's purpose is to attract and convert new ticket buyers and provide users with practical information in an easily accessible way. The target audience is electronic dance music fans and festival goers around the globe. 
 
 ![Web Screenshit](/assets/images/mock-up.png)
+
+The live link can be found here - [Sohl Music Festival](https://nelliesohl.github.io/festival-project/ ) 
 
 # Features
 
@@ -22,6 +25,8 @@ The navigation bar offers the user fast and easy navigation to their section of 
 
 ![Web Screenshot](/assets/images/menu.png)
 
+---
+
 __Hero image__
 
 The animated hero image grabs the user's attention. The cover text informs the user about when and where the festival is being held.
@@ -31,6 +36,8 @@ The animated hero image grabs the user's attention. The cover text informs the u
 - Fully responsive on all screen sizes
 
 ![Web Screenshot](/assets/images/hero-section.png)
+
+---
 
 __Ticket banner__
 
@@ -43,6 +50,8 @@ The ticket banner notifies users that tickets have been released and offers fast
 
 ![Web Screenshot](/assets/images/ticket-banner.png)
 
+---
+
 __About section__
 
 Provides the user with information about what the festival offers and its purpose.
@@ -53,6 +62,8 @@ Provides the user with information about what the festival offers and its purpos
 - Fully responsive on all screen sizes
 
 ![Web Screenshot](/assets/images/about-section.png)
+
+---
 
 __Artist sections__
 
@@ -69,6 +80,8 @@ Introduces users to the festival’s lineup and allows users to see what day the
 
 ![Web Screenshot](/assets/images/third-artist-section.png)
 
+---
+
  __FAQ__
 
 This section gives users a central place to find the answers they need and provides additional information about the festival.
@@ -81,6 +94,8 @@ This section gives users a central place to find the answers they need and provi
 
 ![Web Screenshot](/assets/images/faq-section.png)
 
+---
+
 __Contact form__
 
 This section contains a form in which the user can contact the festival directly.
@@ -91,6 +106,8 @@ This section contains a form in which the user can contact the festival directly
 
 ![Web Screenshot](/assets/images/contact-section.png)
 
+---
+
 __Footer__
 
 The footer section encourages the user to keep connected and updated through the festival's social media channels. 
@@ -100,13 +117,15 @@ The footer section encourages the user to keep connected and updated through the
 
 ![Web Screenshot](/assets/images/footer-section.png)
 
+---
+
 ## Features Left to Implement
 
 - Ideas for future implementation:
   - Drop-down text for FAQ
   - Redirect user to internal artist page instead of external artist site
   - Update artist images with properly sized images to improve performance score in Light House test
-  - Update artist images with correct aspects ratio to improve performance score in Light House test 
+  - Update artist images with correct aspects ratio to improve best practices score in Light House test 
 
 
 ## Testing
@@ -145,28 +164,32 @@ I found two bugs
 ____
 The [Sohl Music Festival](https://nelliesohl.github.io/festival-project/) website works like intended across Chrome, Safari, Mozilla, and Firefox on the following devices:
 
-Chrome: iPhone SE, iPhone XR, iPhone 12 Pro, Pixel 5, Samsung Galaxy S8+ Samsung Galaxy S20 Ultra, iPad Air, iPad Mini, Surface Pro 7, Surface Duo, Samsung Galaxy A51/71, Nest Hub, Nest Hub Max, Galaxy S5 
+Chrome: iPhone SE, iPhone XR, iPhone 12 Pro, Pixel 5, Samsung Galaxy S8+ Samsung Galaxy S20 Ultra, iPad Air, iPad Mini, Surface Pro 7, Surface Duo, Samsung Galaxy A51/71, Nest Hub, Nest Hub Max, Galaxy S5, MacBook Pro 
 
 
-Safari: Safari 15.3, iPhone iOS 14.0, iPad iOS 14.0, iPhone iOS 13.1.3, iPod touch iOS 13.1.3, iPad Mini iOS 13.1.3, iPad iOS 13.1.3 
+Safari: Safari 15.3, iPhone iOS 14.0, iPad iOS 14.0, iPhone iOS 13.1.3, iPod touch iOS 13.1.3, iPad Mini iOS 13.1.3, iPad iOS 13.1.3, MacBook Pro
 
 
-Mozilla: Fully responsive in browser
+Mozilla: MacBook Pro
 
 
-Firefox: Fully responsive in browser
+Firefox: Macbook Pro
 ___
 
-What I’ve tested other than responsiveness: 
-- Internal links in nav bar is connected to the right sections and works 
+I have confirmed that:
+
+- Internal links in nav bar is connected to the right sections
 - External links in nav bar opens in a new tab
 - External ticket banner link opens in a new tab 
 - External artist links opens in a new tab 
 - All inputs are required to submit form
-- Submitting form works
+- The form requires entries in every field and the submit button works
 - External social media links opens in a new tab
-- Hero image and artist card zoom animation works
-- Hover effects applied to links in nav bar, ticket banner, artist cards, and submit button works
+- Hero image and artist card animation works as intended
+- Hover effects applied to links in nav bar, ticket banner, artist cards, and submit button works as intended
+
+- The project is fully responsive 
+- Text content are readable and easy to understand
 
 (No bugs found)
 
@@ -244,12 +267,20 @@ __Code__
 * For artist card positioning I’ve used code from https://flexboxfroggy.com/
 * To clean up my html formatting I’ve used https://webformatter.com/html
 * For vendor prefixes, I’ve used https://autoprefixer.github.io/
-* The [Code Institute’s](https://learn.codeinstitute.net/) course material and projects are where I’ve taken my code inspiration from 
+* For the inspiration and development of this project I've used [Code Institute’s](https://learn.codeinstitute.net/) course material and projects.
+  - Love Running Project
+    - Meta tags
+    - Hero image and zoom animation
+    - Site footer with social media icons
+    - Form structure 
+  
+  - Your first Gitpod Project
+    - Cards structure
 
 
 I would like to thank and give credit to Lejla Delic that has contributed to this project with the majority of the text content in the about section.
 
 
-I would like to share my enormous gratitude to my mentor Akshat Garg who has been amazing support along this journey and made a lot of things click for me. 
+I would like to share my enormous gratitude to my mentor Akshat Garg who has been amazing support along this journey and made a lot of things mentally click for me. 
 
 Akshat Garg has also introduced me to the [Flexboxfroggy](https://flexboxfroggy.com/) code, the [HTML formatter](https://webformatter.com/html), the [Mockup site](http://techsini.com/multi-mockup/index.php), and the [Material Design - Color tool](https://material.io/resources/color/#!). 
