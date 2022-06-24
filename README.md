@@ -30,7 +30,7 @@ The animated hero image grabs the user's attention. The cover text informs the u
 - Text overlay including logo, dates, and location of the festival
 - Fully responsive on all screen sizes
 
-![Web Screenshot](/assets/images/hero-image.jpg)
+![Web Screenshot](/assets/images/hero-section.png)
 
 __Ticket banner__
 
@@ -113,15 +113,15 @@ The footer section encourages the user to keep connected and updated through the
 
 __Validator Testing__
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![HTML Test Screenshot](/assets/images/html-checker.png)
  * HTML
     * No errors were returned when passing through the official W3C validator
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![CSS Test Screenshot](/assets/images/css-validator.png)
 * CSS
     * No errors were found when passing through the official (Jigsaw) validator
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Light House Screenshot](/assets/images/light-house.png)
 * Light house
     * Best possible accessibility score
 
